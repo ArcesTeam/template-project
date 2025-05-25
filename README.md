@@ -1,4 +1,4 @@
-# 📦 template-common
+# 📦 template-project
 
 > **ArcesTeam 内部通用模板仓库**
 > 作为 Arces 项目的项目模板体系的最小通用子集，适用于构建其他更复杂模板仓库（如
@@ -8,7 +8,7 @@
 
 ## 📘 项目简介
 
-`template-common` 是一个适用于团队内项目起步的通用基础模板，主要提供：
+`template-project` 是一个适用于团队内项目起步的通用基础模板，主要提供：
 
 - 🌱 最基本的项目文件结构；
 - ⚙️ GitHub 功能模块配置（Issue、PR、CI）；
@@ -30,11 +30,11 @@
 
 - 🎯 **标准结构**：提供清晰、规范的仓库结构，统一团队开发风格；
 - 📦 **文档齐全**：集成
-  [README](https://github.com/ArcesTeam/template-common/blob/main/README-template.md)、
-  [LICENSE](https://github.com/ArcesTeam/template-common/blob/main/LICENSE)、
-  [CHANGELOG](https://github.com/ArcesTeam/template-common/blob/main/CHANGELOG/)、
-  [CONTRIBUTING](https://github.com/ArcesTeam/template-common/blob/main/.github/CONTRIBUTING.md)、
-  [CODE_OF_CONDUCT](https://github.com/ArcesTeam/template-common/blob/main/.github/CODE_OF_CONDUCT.md)
+  [README](https://github.com/ArcesTeam/template-project/blob/main/README-template.md)、
+  [LICENSE](https://github.com/ArcesTeam/template-project/blob/main/LICENSE)、
+  [CHANGELOG](https://github.com/ArcesTeam/template-project/blob/main/CHANGELOG/)、
+  [CONTRIBUTING](https://github.com/ArcesTeam/template-project/blob/main/.github/CONTRIBUTING.md)、
+  [CODE_OF_CONDUCT](https://github.com/ArcesTeam/template-project/blob/main/.github/CODE_OF_CONDUCT.md)
   等基础文档；
 - ⚙️ **自动化配置**：预配置 GitHub Workflows、PR/Issue 模板，支持 CI/CD 起步；
 - ✨ **编辑器支持**：提供通用的
@@ -77,7 +77,7 @@
 ### 🧱 从模板创建新仓库
 
 点击 GitHub
-界面右上角的 [Use this template](https://github.com/ArcesTeam/template-common/generate)
+界面右上角的 [Use this template](https://github.com/ArcesTeam/template-project/generate)
 按钮，即可基于此模板创建新的仓库。
 
 - 进行必要的项目名称替换 例: `{{project-name}}`->`your-repo-name`
@@ -88,7 +88,7 @@
 ### 🛠️ 使用 GitHub CLI 创建
 
 ```bash
-gh repo create <your-repo-name> --template ArcesTeam/template-common
+gh repo create <your-repo-name> --template ArcesTeam/template-project
 ```
 
 - 进行必要的项目名称替换 例: `{{project-name}}`->`your-repo-name`
@@ -112,7 +112,7 @@ gh repo create <your-repo-name> --template ArcesTeam/template-common
 
 ## 📄 License
 
-本模板项目采用 [MIT License](https://github.com/ArcesTeam/template-common/blob/main/LICENSE)。
+本模板项目采用 [MIT License](https://github.com/ArcesTeam/template-project/blob/main/LICENSE)。
 
 ---
 

@@ -17,12 +17,8 @@
 
 该模板本身并不包含任何构建工具或语言绑定，推荐在此基础上构建更具语义与功能的上层模板仓库，如：
 
-- [
-  `template-gradle-project`](https://github.com/ArcesTeam/template-gradle-project) —
-  通用 Gradle 项目模板
-- [
-  `template-gradle-neoforge-project`](https://github.com/ArcesTeam/template-gradle-neoforge-project) —
-  NeoForge 模组项目模板
+- [ `template-gradle-project`](https://github.com/ArcesTeam/template-gradle-project) — 通用 Gradle 项目模板
+- [ `template-gradle-neoforge-project`](https://github.com/ArcesTeam/template-gradle-neoforge-project) — NeoForge 模组项目模板
 
 ---
 
@@ -76,9 +72,7 @@
 
 ### 🧱 从模板创建新仓库
 
-点击 GitHub
-界面右上角的 [Use this template](https://github.com/ArcesTeam/template-project/generate)
-按钮，即可基于此模板创建新的仓库。
+点击 GitHub 界面右上角的 [Use this template](https://github.com/ArcesTeam/template-project/generate) 按钮，即可基于此模板创建新的仓库。
 
 - 进行必要的项目名称替换 例: `{{project-name}}`->`your-repo-name`
 
@@ -93,8 +87,7 @@ gh repo create <your-repo-name> --template ArcesTeam/template-project
 
 - 进行必要的项目名称替换 例: `{{project-name}}`->`your-repo-name`
 
-更为详细地使用流程可以参考 GitHub CLI
-官方文档 [gh repo create](https://cli.github.com/manual/gh_repo_create)
+更为详细地使用流程可以参考 GitHub CLI 官方文档 [gh repo create](https://cli.github.com/manual/gh_repo_create)
 
 > 💡 需要安装 GitHub CLI 工具
 
@@ -104,9 +97,7 @@ gh repo create <your-repo-name> --template ArcesTeam/template-project
 
 - 💼 团队级别的项目起始模板；
 - 🚀 快速搭建带有标准化配置的新仓库；
-- 📁 搭建更复杂模板的基础依赖（推荐使用 [
-  `template-gradle-project`](https://github.com/ArcesTeam/template-gradle-project)
-  进行扩展）；
+- 📁 搭建更复杂模板的基础依赖（推荐使用 [ `template-gradle-project`](https://github.com/ArcesTeam/template-gradle-project) 进行扩展）；
 
 ---
 
@@ -118,18 +109,14 @@ gh repo create <your-repo-name> --template ArcesTeam/template-project
 
 ## 📣 联系我们
 
-此项目由 [ArcesTeam](https://github.com/ArcesTeam) 维护，欢迎提出改进建议或提交
-PR
+此项目由 [ArcesTeam](https://github.com/ArcesTeam) 维护，欢迎提出改进建议或提交 PR 处理
 
 ---
 
 ## ✅ 你还可以：
 
-- 🔍 查看 [
-  `template-gradle-project`](https://github.com/ArcesTeam/template-gradle-project)
-  获取构建逻辑支持；
+- 🔍 查看 [ `template-gradle-project`](https://github.com/ArcesTeam/template-gradle-project) 获取构建逻辑支持；
 - 🧪 使用此模板测试构建标准化结构；
-- 💬 在 [Discussions](https://github.com/orgs/ArcesTeam/discussions)
-  中提交问题或反馈模板建议；
+- 💬 在 [Discussions](https://github.com/orgs/ArcesTeam/discussions) 中提交问题或反馈模板建议；
 
 ---

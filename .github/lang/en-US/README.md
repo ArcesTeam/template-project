@@ -1,5 +1,6 @@
 # Project Name
 
+<!--suppress HtmlDeprecatedAttribute -->
 <p align="right">
   <a href="https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/README.md" title="简体中文">CN 简体中文</a> &nbsp;|&nbsp;
   <strong>EN English</strong>
